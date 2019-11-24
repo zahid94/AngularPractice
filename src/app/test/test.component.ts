@@ -40,5 +40,8 @@ OnClick(event){
   console.log(event);
   this.greetting="welcome to event.";
 }
+LogMessage(value){
+console.log(value);
+}
 
 }
