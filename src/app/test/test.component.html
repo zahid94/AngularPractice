@@ -1,0 +1,19 @@
+<h2>
+    Welcome test component
+</h2>
+<h3>{{name}}</h3>
+<h3>use javaScripts length : {{name.length}}</h3>
+<h2>use javaScripts toUpperCase : {{name.toUpperCase()}} </h2>
+<h4>use method : {{greenUser()}} </h4>
+<input type="text" [id]="myid" value="zahid">
+<input type="text" [disabled]="isdisible" name="test" value="zahid" [id]="myid">
+<h2 [class]="testSuccess">Welcome</h2>
+<h2 [class]="testDenger">Welcome</h2>
+<h2 [class.test-denger]="hasError">Welcome</h2>
+<h2 [ngClass]="message">Welcome</h2>
+<h3>check event binding</h3>
+<button (click)="OnClick($event)">click</button>
+<button (click)="greetting='Welcome to zahid'">new button</button>
+{{greetting}}
+
+
