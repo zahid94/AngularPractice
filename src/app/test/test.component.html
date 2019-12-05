@@ -5,8 +5,10 @@
 <h3>use javaScripts length : {{name.length}}</h3>
 <h2>use javaScripts toUpperCase : {{name.toUpperCase()}} </h2>
 <h4>use method : {{greenUser()}} </h4>
+<h2>id binding</h2>
 <input type="text" [id]="myid" value="zahid">
 <input type="text" [disabled]="isdisible" name="test" value="zahid" [id]="myid">
+<h2>class binding</h2>
 <h2 [class]="testSuccess">Welcome</h2>
 <h2 [class]="testDenger">Welcome</h2>
 <h2 [class.test-denger]="hasError">Welcome</h2>
@@ -18,5 +20,7 @@
 <h2>practics templage reference with variables.</h2>
 <input type="text" #myInput>
 <button (click)="LogMessage(myInput.value)">log</button>
+<button (click)="LogMessage(myInput.value)">check value</button>
+{{title}}
 
 

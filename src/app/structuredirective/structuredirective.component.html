@@ -1,0 +1,30 @@
+<h2>structuredirective works!</h2>
+<ng-container *ngIf="display; else elseTemplate">
+    check if
+</ng-container>
+<ng-template #elseTemplate>
+    hidden property
+</ng-template>
+<h2>check switch</h2>
+
+<span [ngSwitch]="color">
+<p *ngSwitchCase="'red'">
+you pick red color
+</p>
+<p *ngSwitchCase="'blue'">
+you pick blue color
+</p>
+<p *ngSwitchDefault>
+pick again
+</p>
+</span>
+<h2>check for loop</h2>
+<div *ngFor="let item of colors ; index as i"> {{i+1}} {{item}}</div>
+<h2>select first isIterable</h2>
+<div *ngFor="let item of colors ; first as f"> {{f}} {{item}}</div>
+<h2>select last isIterable</h2>
+<div *ngFor="let item of colors ; last as l"> {{l}} {{item}}</div>
+<h2>select even isIterable</h2>
+<div *ngFor="let item of colors ; even as e"> {{e}} {{item}}</div>
+<h2>select odd isIterable</h2>
+<div *ngFor="let item of colors ; odd as o"> {{o}} {{item}}</div>

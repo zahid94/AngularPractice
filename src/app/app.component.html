@@ -1,6 +1,25 @@
- 
-    <div style="text-align: center;">
-      <h1><span>{{ title }} app is running!</span></h1>
-      <div class="app-test">
-      </div>
-    </div> 
+<div class="app" style="text-align: center;">
+  <!-- <h1><span>{{ title }} app is running!</span></h1> -->
+  <h1><span>{{ message }} app is running!</span></h1>
+  <table>
+    <tr>
+      <td><span class="app-test"></span>
+        <span class="app-componentinterection" (clildEvent)="message=$event" [perentData]="name"></span>
+      </td>
+      <td><span class="app-twowaybinding"></span>
+        <span class="app-structuredirective"></span>
+      </td>
+    </tr>
+    <tr>
+      <td><span class="app-pripes"></span></td>
+      <td><span class="app-services"></span></td>
+    </tr>
+    <tr>
+      <td><span class="app-dipattern"></span></td>
+      <td><span class="app-EmployeeDetails"></span></td>
+    </tr>
+    <tr>
+      <td><span class="app-observables"></span></td>
+    </tr>
+  </table>
+</div>

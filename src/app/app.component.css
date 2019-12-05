@@ -1,0 +1,78 @@
+.app{    
+   
+    background-color: aliceblue;  
+}
+.app-test{
+    border: 1px solid black;
+    width: 500px;
+    padding: 5px; 
+    margin: 5px;
+    display: inline-table;
+    background: azure;
+     
+}
+.app-twowaybinding{
+    border: 1px solid black;
+    width: 500px;
+    margin: 5px;
+    padding: 5px; 
+    display: inline-table;  
+    background: azure;
+}
+.app-structuredirective{
+    border: 1px solid black;
+    width: 500px;
+    margin: 5px;
+    padding: 5px; 
+    display: inline-table;
+    background: azure;    
+}
+.app-componentinterection{
+    border: 1px solid black;
+    width: 500px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-table; 
+    background: azure;  
+}
+.app-pripes{
+border: 1px solid black;
+    width: 500px;
+    margin: 5px;
+    padding: 5px;
+    display:inline-table;
+    background: azure;
+}
+.app-services{
+    border: 1px solid black;
+    width: 500px;
+    margin: 5px;  
+    padding: 5px;
+    display: inline-table;
+    background: azure;
+}
+.app-dipattern{
+    border: 1px solid black;
+    width: 500px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-table;
+    background: azure;
+}
+.app-EmployeeDetails{
+    border: 1px solid black;
+    width: 500px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-table;
+    background: azure;
+}
+.app-observables{
+    border: 1px solid black; 
+    width: 500px;
+    margin: 5px;  
+    padding: 5px;
+    display: inline-table;
+    background: azure;
+    
+}

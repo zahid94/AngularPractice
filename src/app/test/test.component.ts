@@ -28,20 +28,23 @@ public greenUser() {
 
 }
 /**
- * Property
+ * Property class binding
  */
 public message= {
   "test-success" : !this.hasError,
   "test-denger" : this.hasError,
   "test-spicial" :this.isSpecial
 }
-public greetting=""
+public greetting="";
+
 OnClick(event){
   console.log(event);
   this.greetting="welcome to event.";
 }
+public title="";
 LogMessage(value){
 console.log(value);
+this.title=value;
 }
 
 }
