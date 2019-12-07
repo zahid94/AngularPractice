@@ -6,7 +6,7 @@ import { EmployeeService } from './Employee.Service';
   templateUrl: './EmployeeDetails.template.html',
   styleUrls: ['./dipattern.component.css']
 })
-export class EmployeeDetails implements OnInit {
+export class EmployeeDetailsComponent implements OnInit {
 
     public Employees=[];
   constructor( private _employeeService:EmployeeService) {

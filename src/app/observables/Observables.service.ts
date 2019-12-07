@@ -7,7 +7,8 @@ import { catchError } from 'rxjs/operators';
 
 @Injectable()
 export class ObservableService {
-    private _url:string = "/assets/Employee.json";
+    // private _url:string = "http://localhost:63011/api/User/Details";
+    private _url:string="/assets/Employee.json";
     constructor(private http:HttpClient) {}
     
     ///////////////list of my employee///////

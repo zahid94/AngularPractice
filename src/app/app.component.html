@@ -5,21 +5,22 @@
     <tr>
       <td><span class="app-test"></span>
         <span class="app-componentinterection" (clildEvent)="message=$event" [perentData]="name"></span>
+        <span class="app-pripes"></span>
+        <span class="app-EmployeeDetails"></span> 
+        <span class="app-dipattern"></span>
       </td>
-      <td><span class="app-twowaybinding"></span>
+      <td>
         <span class="app-structuredirective"></span>
+        <span class="app-services"></span>        
+        <span class="app-observables"></span> 
+        <span class="app-twowaybinding"></span>
       </td>
-    </tr>
-    <tr>
-      <td><span class="app-pripes"></span></td>
-      <td><span class="app-services"></span></td>
-    </tr>
-    <tr>
-      <td><span class="app-dipattern"></span></td>
-      <td><span class="app-EmployeeDetails"></span></td>
-    </tr>
-    <tr>
-      <td><span class="app-observables"></span></td>
-    </tr>
+    </tr>    
   </table>
+  <nav>
+    <a routerLink="/student"  >student</a>
+    <a routerLink="/studentDetails">studentDetails</a>
+  </nav>
 </div>
+
+<router-outlet class="routerOutlet"></router-outlet>
