@@ -16,6 +16,7 @@ import{HttpClientModule} from '@angular/common/http';
 import { ObservablesComponent } from './observables/observables.component';
 import { ObservableService } from './observables/Observables.service';
 import { StudentService } from './Routing/Student.Service';
+import { WorkerService } from './RoutParameter/Worker.service';
 
 
 
@@ -50,7 +51,8 @@ import { StudentService } from './Routing/Student.Service';
   providers: [
     EmployeeService,
     ObservableService,
-    StudentService
+    StudentService,
+    WorkerService
   ],
 
   //all master page add here

@@ -1,0 +1,4 @@
+<h2>Router parameter work!</h2>
+<ul class="item" *ngFor="let worker of workers" (click)="OnSelect(worker)">
+    <li><span class="workerId">{{worker.id}} </span>{{worker.name}} </li>
+</ul>

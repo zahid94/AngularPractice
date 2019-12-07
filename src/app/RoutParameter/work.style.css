@@ -1,0 +1,13 @@
+li{
+    list-style-type: none;
+}
+.item{
+    width: 100px;
+    border: 1px solid salmon;
+    background-color:silver;
+    
+}
+.workerId{
+    widows: 100px;
+    background-color: whitesmoke;
+}
