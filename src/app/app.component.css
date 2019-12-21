@@ -78,4 +78,20 @@ border: 1px solid black;
 }
 a:link{
     padding: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color : coral;
+}
+.student{
+    background-color: chocolate;
+    box-shadow: 2px 2px;
+}
+.studentdetails{
+    background-color: chocolate;
+    box-shadow: 2px 2px;
+}
+.workers{
+    background-color: chocolate;
+    box-shadow: 2px 2px;
 }

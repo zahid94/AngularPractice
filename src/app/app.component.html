@@ -18,10 +18,10 @@
     </tr>    
   </table>
   <nav>
-    <a routerLink="/student"  >student</a>
-    <a routerLink="/studentDetails">studentDetails</a>
-    <a [routerLink]="['/worker']" routerLinkActive="router-link-active" > Workers</a>
-  </nav>
+    <a routerLink="/student"  class="student">student</a>
+    <a routerLink="/studentDetails" class="studentdetails">studentDetails</a>
+    <a [routerLink]="['/worker']" routerLinkActive="router-link-active" class="workers"> Workers</a>
+  </nav>  
 </div>
 
 <router-outlet class="routerOutlet"></router-outlet>

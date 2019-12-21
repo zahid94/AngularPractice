@@ -1,4 +1,7 @@
 <h2>work details with routing parameter id</h2>
 <h3>you selected worker id = {{workerId}} </h3>
-<a href="" (click)="goPrevious()">Previous</a> |
-<a href="" (click)="goNext()">Next</a>
+<a (click)="goPrevious()" class="previous">Previous</a> |
+<a (click)="goNext()" class="next">Next</a>
+<div>
+    <button (click)="gotoback()" class="back"> back</button>
+</div>

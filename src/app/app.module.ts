@@ -34,7 +34,7 @@ import { WorkerService } from './RoutParameter/Worker.service';
     EmployeeListComponent,
     EmployeeDetailsComponent,
     ObservablesComponent,
-    routingComponents
+    routingComponents 
     
     
   ],

@@ -1,13 +1,38 @@
 li{
     list-style-type: none;
 }
-.item{
-    width: 100px;
-    border: 1px solid salmon;
-    background-color:silver;
-    
+.items li.selected{
+    background-color:goldenrod;
+    padding: 5px;
 }
-.workerId{
-    widows: 100px;
-    background-color: whitesmoke;
+.items li{
+    background-color: gold;
+    padding: 5px;
+    margin: 10px;
+    width: 60px;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}
+.items li .badge{
+   
+    padding: 5px;
+    background-color: cornflowerblue; 
+}
+.back{
+    background-color: gold;
+    padding: 2px;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}
+.previous{
+    background-color: gold;
+    padding: 2px;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}
+.next{
+    background-color: gold;
+    padding: 2px;
+    box-shadow: 3px 3px;
+    cursor: pointer;
 }

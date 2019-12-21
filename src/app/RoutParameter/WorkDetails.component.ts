@@ -3,7 +3,8 @@ import { ActivatedRoute, Router, ParamMap } from '@angular/router';
 
 @Component({
     selector:'app-workDetails',
-    templateUrl:'./WorkDetails.template.html'
+    templateUrl:'./WorkDetails.template.html',
+    styleUrls:['./work.style.css']
 })
 export class WorkDetailsComponent implements OnInit{
     public workerId;
@@ -29,6 +30,10 @@ export class WorkDetailsComponent implements OnInit{
     goNext(){
         let previousId=this.workerId+1;
         this.router.navigate(['/worker',previousId]);
+    }
+    gotoback(){
+        let selectId=this.workerId ? this.workerId:null;
+        this.router.navigate(['/worker',{id:selectId}]);
     }
 
 }
